@@ -1,0 +1,64 @@
+body{
+    background-color: #202020;
+}
+
+
+p h1{
+    font-family:"Source Sans Pro", sans-serif;
+}
+
+h1{
+    font-size: 33px;
+}
+
+h2{
+    font-size: 15px;
+    color: gray;
+}
+
+p{
+    font-size: 12px;
+}
+
+p span{
+    color:gray;
+}
+
+.offcanvas-body li a:hover{
+    box-shadow: inset 500px 0 0 0 #54b3d6;
+    color: white;
+}
+
+li{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+   
+#homepage{
+    background-color: transparent  ;
+}
+#homepage > div {
+    background-color: #fff;
+    width: 900px;
+    height: 100%;
+    min-height: 100vh;
+}
+.center-pic{
+    width: 800px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 400px;
+}
+
+.separation{
+    border-right: 1px solid gray;
+    height: 7àpx;
+}
+
+h2 span{
+    color: black;
+    margin-left: 5px;
+}
